@@ -1,0 +1,167 @@
+* {
+    font-family: 'Gloock' !important;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #6650f2;
+
+}
+
+a:visited {
+    color: #7a4c9e;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+
+.header img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+main {
+    margin: 0 100px;
+}
+
+.introduction {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+img {
+    width: 50px;
+    /* Adjust the size as needed */
+    height: 50px;
+
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.project-links a {
+    margin-right: 10px;
+    display: inline-block;
+    /* Ensures icons stay in a row */
+}
+
+
+
+footer {
+    margin: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+    .header h1 {
+        font-size: 60px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header,
+    .header img {
+        height: auto;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 2.1rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    main {
+        margin: 0 10px;
+        /* Decreased left and right margins */
+    }
+
+    .introduction,
+    .project {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 0.9em;
+        margin: 0.5rem 0;
+    }
+
+    .project-links a {
+        margin-right: 5px;
+    }
+
+    img {
+        width: 30px;
+        /* Decreased image size */
+        height: 30px;
+        /* Decreased image size */
+    }
+
+    footer {
+        margin: 0.5rem;
+    }
+}
