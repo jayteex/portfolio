@@ -47,7 +47,21 @@ a:hover {
     text-shadow: 1px 1px 2px black;
 }
 
-main, h1 {
+.header .copyright {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    color: white; 
+    font-size: 12px; 
+    text-shadow: 1px 1px 2px black; 
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
     margin: 0 100px;
 }
 
@@ -68,7 +82,7 @@ main, h1 {
 .introduction img {
     display: block;
     position: relative;
-    left: 49%;
+    left: 47%;
 }
 
 
@@ -96,6 +110,7 @@ p {
 .preview-img {
     margin-top: 10px;
     max-height: 400px;
+    max-width: 100%;
     margin: auto 0;
 }
 
@@ -130,12 +145,6 @@ ul ul {
     padding-left: 1.8rem;
 }
 
-
-footer {
-    margin: 1rem;
-}
-
-
 @media (max-width: 1024px) {
     .header h1 {
         font-size: 60px;
@@ -163,9 +172,12 @@ footer {
         transform: translate(-50%, -50%);
     }
 
+    .header .copyright {
+        font-size: 5px; 
+    }
+
     main {
         margin: 0 10px;
-        /* Decreased left and right margins */
     }
 
     .introduction div {
@@ -222,9 +234,5 @@ footer {
     .introduction img {
         width: 30px;
         height: 30px;
-    }
-
-    footer {
-        margin: 0.5rem;
     }
 }
