@@ -246,6 +246,19 @@ ul ul {
     padding-left: 1.8rem;
 }
 
+.h1-disclaimer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.disclaimer {
+    font-size: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
     .header h1 {
         font-size: 60px;
