@@ -75,7 +75,7 @@ h1 {
 
 .introduction {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 3px 20px;
 }
 
 .introduction div {
@@ -83,10 +83,21 @@ h1 {
     max-width: 60%;
 }
 
+/*
 .introduction img {
     display: block;
     position: relative;
     left: 47%;
+}
+*/
+
+.intro-icons {
+    text-align: center;
+}
+
+.intro-icons img {
+   height: 50px;
+   margin-left: 5px;
 }
 
 h2 {
@@ -115,6 +126,12 @@ p {
     max-height: 400px;
     max-width: 100%;
     margin: auto 0;
+}
+
+.project {
+    margin: 30px;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid #ddd;
 }
 
 .project-links img {
@@ -195,12 +212,6 @@ p {
     opacity: 1;
 }
 
-.project {
-    margin: 30px;
-    padding: 30px;
-    border: 1px solid #ddd;
-}
-
 .project-links a {
     margin-right: 10px;
     display: inline-block;
@@ -215,6 +226,7 @@ p {
 .skills-wrapper {
     max-width: 80%;
     margin: 0 auto;
+    padding: 10px 0 10px 0;
 }
 
 #skills-container {
@@ -298,15 +310,25 @@ ul ul {
         max-width: 90%;
     }
 
-    .introduction img {
-        left: 47%;
+    .introduction {
+        margin: 10px;
+        padding: 2px 15px 0 15px;
     }
 
-    .introduction,
+    .skills-wrapper {
+        padding: 10px 0 13px 0;
+    }
+
     .project {
-        margin: 10px;
+        margin: 20px;
         padding: 15px;
     }
+
+    .intro-icons img {
+        height: 35px;
+        margin-left: 3px;
+     }
+     
 
     h2 {
         font-size: 1.2em;
@@ -348,5 +370,9 @@ ul ul {
     .introduction img {
         width: 30px;
         height: 30px;
+    }
+
+    .disclaimer {
+        font-size: 15px;
     }
 }
